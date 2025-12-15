@@ -2,7 +2,7 @@ import pickle
 import numpy as np
 
 # 1. Load the pipeline
-filename = "credit_scoring_pipeline.pkl"
+filename = "credit_scoring.pkl"
 print(f"Loading {filename}...")
 
 with open(filename, 'rb') as f:
